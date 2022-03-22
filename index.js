@@ -1,12 +1,9 @@
-in
-main
-<> Edit new file
-Preview
-function Block(letter, rate, used, father, code) {
-this.letter letter; =
-this.rate= rate;
-this.used = used;
-this. father father;
-this.code = code;
+class Block {
+    constructor(index, previousHash, timestamp, data, hash) {
+        this.index = index;
+        this.previousHash = previousHash.toString();
+        this.timestamp = timestamp;
+        this.data = data;
+        this.hash = hash.toString();
+    }
 }
-function FindCode (block) {
